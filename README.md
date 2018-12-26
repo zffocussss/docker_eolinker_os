@@ -20,7 +20,7 @@ sudo yum install docker-ce
 
 #安装docker-compose
 sudo yum -y install docker-compose
-[docker](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)
+[docker](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html,"安装docker")
 ```
 
 2、使用git下载完整代码
