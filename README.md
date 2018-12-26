@@ -9,15 +9,12 @@ sudo yum -y install git
 
 #Ubuntu下安装git
 sudo apt-get -y install git
-
-
-docker安装[中文教程](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)：
-
-#安装docker-compose
-sudo yum -y install docker-compose
-
-
 ```
+
+#docker-ce安装,请参考[中文教程](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html "中文教程"),[官方教程](https://docs.docker.com/install/)
+
+#docker-compose安装,请参考[中文教程](https://yeasy.gitbooks.io/docker_practice/compose/install.html "中文教程"),[官方教程](https://docs.docker.com/compose)
+
 
 2、使用git下载完整代码
 ```shell
@@ -27,8 +24,7 @@ git clone https://github.com/ljgade/docker_eolinker_os
 ```shell
 docker-compose build && docker-compose up -d
 ```
-4、在浏览器访问[http://localhost:10080](http://localhost:10080 "http://localhost:10080")
-![eoLinker开源版安装页面](http://www.ljgade.cn/wp-content/uploads/2018/01/TKM@0M56S2TLRRX8DVW-768x430.png)
+4、在浏览器访问[http://localhost:10080](http://localhost:10080)
 
 
 #### **目录结构**
