@@ -7,20 +7,16 @@
 #centOS下安装git:
 sudo yum -y install git
 
-#docker安装参考官网安装教程：
-#SET UP THE REPOSITORY
-sudo yum install -y yum-utils \
-  device-mapper-persistent-data \
-  lvm2
-sudo yum-config-manager \
-    --add-repo \
-    https://download.docker.com/linux/centos/docker-ce.repo
-#INSTALL DOCKER CE
-sudo yum install docker-ce
+#Ubuntu下安装git
+sudo apt-get -y install git
+
+
+docker安装[中文教程](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)：
 
 #安装docker-compose
 sudo yum -y install docker-compose
-[docker](https:://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)
+
+
 ```
 
 2、使用git下载完整代码
@@ -31,7 +27,7 @@ git clone https://github.com/ljgade/docker_eolinker_os
 ```shell
 docker-compose build && docker-compose up -d
 ```
-4、在浏览器访问[http://localhost](http://localhost "http://localhost")
+4、在浏览器访问[http://localhost:10080](http://localhost:10080 "http://localhost:10080")
 ![eoLinker开源版安装页面](http://www.ljgade.cn/wp-content/uploads/2018/01/TKM@0M56S2TLRRX8DVW-768x430.png)
 
 
@@ -68,7 +64,7 @@ services:
       - "./volumes/apps:/apps"  #挂载apps目录
     ports:
       - "3306:3306"   #数据库端口
-      - "80:80"       #nginx端口
+      - "10080:80"       #nginx端口
     environment:
       - MYSQL_ROOT_PASSWORD=123456    #默认数据库root用户密码
       - MYSQL_DATABASE=eolinker_os    #默认数据库名称
