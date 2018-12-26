@@ -3,6 +3,7 @@
 
 ------------
 1、安装git、docker、docker-compose
+- **git安装**
 ```shell
 #centOS下安装git:
 sudo yum -y install git
