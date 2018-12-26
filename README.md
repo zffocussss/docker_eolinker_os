@@ -19,7 +19,7 @@
 
 2、使用git下载完整代码
 ```shell
-git clone https://github.com/ljgade/docker_eolinker_os
+git clone https://github.com/zffocussss/docker_eolinker_os
 ```
 3、用docker-compose命令启动容器，首次使用需要下载镜像，会稍慢
 ```shell
