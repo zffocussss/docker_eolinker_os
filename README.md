@@ -2,7 +2,7 @@
 #### **快速使用**
 
 ------------
-1、安装git、docker（ **[官方文档](https://docs.docker.com/engine/installation/#server "官方文档")** ）、docker-compose
+1、安装git、docker、docker-compose
 ```shell
 #centOS下安装git:
 sudo yum -y install git
@@ -11,9 +11,9 @@ sudo yum -y install git
 sudo apt-get -y install git
 ```
 
- **docker-ce**安装,请参考[中文教程](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html "中文教程"),[官方教程](https://docs.docker.com/install/)
+-**docker-ce**安装,请参考[中文教程](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html "中文教程"),[官方教程](https://docs.docker.com/install/)
 
- **docker-compose**安装,请参考[中文教程](https://yeasy.gitbooks.io/docker_practice/compose/install.html "中文教程"),[官方教程](https://docs.docker.com/compose)
+-**docker-compose**安装,请参考[中文教程](https://yeasy.gitbooks.io/docker_practice/compose/install.html "中文教程"),[官方教程](https://docs.docker.com/compose)
 
 
 2、使用git下载完整代码
