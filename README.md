@@ -5,11 +5,11 @@
 1、安装git、docker、docker-compose
 - **git安装**
 ```shell
-#centOS下安装git:
-sudo yum -y install git
+ #centOS下安装git:
+ sudo yum -y install git
 
-#Ubuntu下安装git
-sudo apt-get -y install git
+ #Ubuntu下安装git
+ sudo apt-get -y install git
 ```
 
 - **docker-ce**安装,请参考[中文教程](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html "中文教程"),[官方教程](https://docs.docker.com/install/)
