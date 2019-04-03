@@ -13,6 +13,8 @@ chmod -R 777 /apps/eolinker_os/
 resp=eolinker_ams_os_5.0.zip
 wget https://github.com/eolinker/ENG-EOLINKER-AMS-Lite-5.0-For-PHP/raw/master/release/eolinker_ams_os_5.0.zip -O $resp
 unzip $resp -d /apps/eolinker_os/;
+cd /apps/eolinker_os/eolinker_os;
+cp -r * ..
 chmod -R 777 /apps/eolinker_os/;
 
 # init mysql
