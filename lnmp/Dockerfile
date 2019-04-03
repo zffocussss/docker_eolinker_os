@@ -17,7 +17,8 @@ COPY default.conf /etc/nginx/conf.d/
 EXPOSE 80
 
 # install php
-RUN apk add php7 \
+RUN apk update && apk upgrade && \
+apk add php7 \
             php7-ctype \
             php7-curl \
             php7-dom \
