@@ -7,7 +7,7 @@ php-fpm7;
 #resp=`curl https://api.eolinker.com/openSource/Update/checkout | grep -o 'eolinker_.*zip'`;
 #url="http://data.eolinker.com/os/"${resp};
 #wget `echo $url` -O $resp;
-mkdir -R /apps/eolinker_os/
+mkdir -p /apps/eolinker_os/
 chmod -R 777 /apps/eolinker_os/
 
 resp=eolinker_ams_os_5.0.zip
