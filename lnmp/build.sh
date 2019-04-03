@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #remove exists images
-docker stop eolinker_os
-docker rm eolinker_os
+docker stop eolinker
+docker rm eolinker
 docker rmi eolinker/eolinker_os
 
 #rebuild docker image

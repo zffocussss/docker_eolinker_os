@@ -1,10 +1,11 @@
 version: '2'
 services:
   eolinker_os:
+    container_name: eolinker
     build: lnmp
     image: eolinker/eolinker_os
     volumes:
-      - "./volumes/apps:/apps"
+      - "./volumes/apps/eolinker_os:/apps"
     ports:
       - "3307:3306"
       - "10080:80"
